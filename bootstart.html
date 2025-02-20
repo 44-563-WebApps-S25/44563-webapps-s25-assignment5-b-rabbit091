@@ -14,7 +14,35 @@
 </head>
 <body>
 
+<div class="container mt-5">
+  <h2>Form Example</h2>
+  <!-- Form Element -->
+  <form>
+    <!-- First Form Group: Email Address -->
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
 
+    <!-- Second Form Group: Pet Name -->
+    <div class="form-group">
+      <label for="pet">Pet</label>
+      <input type="text" class="form-control" id="pet" placeholder="Enter your pet" required>
+    </div>
+
+    <!-- Third Form Group: Newsletter Subscription -->
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="newsletter">
+      <label class="form-check-label" for="newsletter">
+        Sign up for newsletter?
+      </label>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
 
 </body>
 </html>
