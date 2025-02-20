@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anil Panday Pet Selection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    .letter-box, .pet-box {
+        background: #007bff;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .img-container img {
+        width: 450px;
+        height: 450px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .thumbnail-container img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+    <h3>Pick a pet by Anil Panday</h3>
+
+    <div class="container">
+        <h2>My Name & Pets</h2>
+
+        <!-- Row for Letters -->
+        <div class="row mt-3">
+            <div class="col-sm-2 letter-box">B</div>
+            <div class="col-sm-2 letter-box">H</div>
+            <div class="col-sm-2 letter-box">A</div>
+            <div class="col-sm-2 letter-box">T</div>
+            <div class="col-sm-2 letter-box">T</div>
+            <div class="col-sm-2 letter-box">A</div>
+        </div>
+
+        <!-- Row for Pets -->
+        <div class="row mt-3">
+            <div class="col-sm-2 pet-box">Beagle</div>
+            <div class="col-sm-2 pet-box">Husky</div>
+            <div class="col-sm-2 pet-box">Angelfish</div>
+            <div class="col-sm-2 pet-box">Tortoise</div>
+            <div class="col-sm-2 pet-box">Tabby Cat</div>
+            <div class="col-sm-2 pet-box">Abyssinian</div>
+        </div>
+
+        <!-- Full-size Images Container -->
+        <h4 class="mt-4">Pet Images</h4>
+        <div class="row img-container text-center">
+            <div class="col-md-4">
+                <img src="beagle.jpg" alt="Beagle" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="husky.webp" alt="Husky" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="angelfish.jpg" alt="Angelfish" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Thumbnail Images Container -->
+        <h4 class="mt-4">Pet Thumbnails</h4>
+        <div class="row thumbnail-container text-center">
+            <div class="col-md-4">
+                <img src="beagle.jpg" alt="Beagle Thumbnail">
+            </div>
+            <div class="col-md-4">
+                <img src="husky.webp" alt="Husky Thumbnail">
+            </div>
+            <div class="col-md-4">
+                <img src="angelfish.jpg" alt="Angelfish Thumbnail">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
